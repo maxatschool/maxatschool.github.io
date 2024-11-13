@@ -101,6 +101,7 @@ section{
   align-items: center;
   justify-content: center;
   gap: 15rem;
+  flex-direction: row;
 }
 .home-content{
   display: flex;
@@ -278,6 +279,9 @@ section{
 
 
 @media(max-width:1285px){
+  .home {
+    flex-direction: column-reverse;
+  }
   #menu-icon{
     display: block;
   }
